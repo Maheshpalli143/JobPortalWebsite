@@ -1,0 +1,40 @@
+.applyjob-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.applyjob-box {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 500px;
+}
+
+.applyjob-box h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.applyjob-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.applyjob-box input,
+.applyjob-box textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.applyjob-box button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

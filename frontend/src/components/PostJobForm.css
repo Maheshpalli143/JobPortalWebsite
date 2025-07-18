@@ -1,0 +1,41 @@
+.postjob-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.postjob-box {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 500px;
+}
+
+.postjob-box h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.postjob-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.postjob-box input,
+.postjob-box select,
+.postjob-box textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.postjob-box button {
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 0.6rem;
+  border-radius: 4px;
+  cursor: pointer;
+}

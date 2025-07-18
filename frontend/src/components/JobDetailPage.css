@@ -1,0 +1,58 @@
+.job-detail-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.company-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.job-description h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.application-form {
+  margin-top: 2rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}
+
+.application-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.application-form input,
+.application-form textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.application-form button {
+  background-color: #0073e6;
+  color: white;
+  padding: 0.6rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.application-form button:hover {
+  background-color: #005bb5;
+}
